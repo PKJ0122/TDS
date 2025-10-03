@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Hero
+  - Ground
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -11,11 +14,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Lane0
+  - Lane1
+  - Lane2
+  - Tower
   - 
   - 
   - 
@@ -40,4 +43,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Lane2
+    uniqueID: 92944423
+    locked: 0
+  - name: Lane1
+    uniqueID: 2217161689
+    locked: 0
+  - name: Lane0
+    uniqueID: 2521789419
+    locked: 0
+  - name: Tower
+    uniqueID: 344260455
+    locked: 0
+  - name: Bullet
+    uniqueID: 2031823009
+    locked: 0
+  - name: UI
+    uniqueID: 1884674101
     locked: 0
