@@ -11,6 +11,9 @@ public class Attacker : MonoBehaviour
     [Tooltip("°ø°Ý¼Óµµ ¹öÇÁ")]
     public float CooltimeBuff = 1f;
 
+    [Tooltip("ÃÑ")]
+    public Transform Weapon;
+
     [Tooltip("ÃÑ±¸")]
     public Transform ShotPoint;
 

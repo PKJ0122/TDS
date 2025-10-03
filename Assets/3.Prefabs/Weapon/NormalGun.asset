@@ -15,3 +15,6 @@ MonoBehaviour:
   BaseAtk: 1
   BaseCoolTime: 1
   BulletPrefab: {fileID: 1563669991241168896, guid: 309ed9d679cad6e42b922608f2719fd0, type: 3}
+  recoilDistance: -0.5
+  recoilDuration: 0.1
+  returnDuration: 0.4
